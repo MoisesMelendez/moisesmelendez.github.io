@@ -4,7 +4,6 @@
 	$asunto = $_POST['asunto'];
 	$mensaje = $_POST['mensaje'];
 	echo $email;
-	
 	if(mail($email, $asunto,$mensaje)){
 		echo "Se ha enviado";
 	}
