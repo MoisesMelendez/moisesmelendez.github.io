@@ -268,21 +268,28 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 	<!-- Contact -->
 	<div class="contact" id="contact">
+		<form action="correo.php" method="POST">
+			
 		<div class="col-md-7 mail-grid1-form ">
 			<h3 class="tittle-w3ls two">Contactame</h3>
 			<form action="#" method="post">
 				<div class="form-fields-agileinfo">
-					<input type="text" name="Name" placeholder="Nombre" required="">
+					<input type="text" name="nombre" placeholder="Nombre" required="">
 				</div>
 				<div class="form-fields-agileinfo">
-					<input type="email" name="Email" placeholder="Email" required="">
+					<input type="email" name="email" placeholder="Email" required="">
 				</div>
 				<div class="form-fields-agileinfo">
-					<textarea name="Message" placeholder="Escribe tu mensaje aquí...." required=""></textarea>
+					<input type="text" name="asunto" placeholder="Asunto..." required="">
+				</div>
+				<div class="form-fields-agileinfo">
+					<textarea name="mensaje" placeholder="Escribe tu mensaje aquí...." required=""></textarea>
 				</div>
 				<input type="submit" value="Enviar">
 			</form>
 		</div>
+
+		</form>
 		<div class="address">
 			<h3 class="subheading-w3-agile">Domicilio.</h3>
 			<p class="para-w3-agileits"></p>
